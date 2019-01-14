@@ -1,0 +1,13 @@
+THIS IS HTML FAM!
+
+<h1>WORLD COUNT</h1>
+
+<!-- {{ hithere }} -->
+
+<a href="{% url 'aboutus' %}">Return to About Us</a>
+
+<form action="{% url 'count' %}">
+	<textarea cols="40" rows="10" name="fulltext"></textarea>
+	<br />
+	<input type="submit" value="Count!" />
+</form>
